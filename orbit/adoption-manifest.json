@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "2.0.0",
+  "repository": "appolon1908-hue/Codestraxxxx",
+  "classification": "inventory-required",
+  "targetBranch": "codex/codestra-orbit-v2-codestraxxxx",
+  "adoptionMode": "inventory-required",
+  "domain": null,
+  "domainStatus": "pending-registration",
+  "requirements": {
+    "repositoryInventory": true,
+    "renderedInterfaceClassification": true,
+    "domainOwnership": true,
+    "authBoundary": true,
+    "routeManifest": true,
+    "newPageGate": true,
+    "deploymentOwnership": true,
+    "rollback": true
+  },
+  "status": "branch-created",
+  "blockers": [
+    "Identify the authoritative application, runtime, deployment target, and repository purpose before introducing UI or authentication code.",
+    "If this repository renders a user interface, adopt the full shared package, header, footer, session, login, logout, route, state, and color contracts.",
+    "If it is backend-only, record the legitimate N/A UI classification and implement only the owned authentication, domain, audit, and rollback contracts."
+  ]
+}
